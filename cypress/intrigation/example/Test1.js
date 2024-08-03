@@ -14,6 +14,7 @@ it('my first test case',function(){
 
       if(vegtext.includes('Cashews')) {
        cy.wrap($el).find('button').click();
+     //  cy.check()
       }
     })
 
