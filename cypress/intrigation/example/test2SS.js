@@ -49,9 +49,9 @@ describe('test',function(){
     cy.get("li[class='oxd-topbar-body-nav-tab --parent --visited'] span[class='oxd-topbar-body-nav-tab-item']").click()
     cy.get('.oxd-dropdown-menu').click();
     cy.get('oxd-table-cell oxd-padding-cell').each(($el,index,list)=>{
-       if($el==='ErnestineLarkin'){
-        cy.wrap($el).click();
-       }
+      //  if($el==='ErnestineLarkin'){
+      //   cy.wrap($el).click();
+      //  }
     })
     
   
